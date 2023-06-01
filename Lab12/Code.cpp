@@ -66,7 +66,7 @@ int main()
         delete[] arr;
     }
     for (int i=0; i<cities; i++){
-        cout << "City-" << i << "  Average = " << sums[i]/9 <<endl;
+        cout << "City-" << i << "  Average = " << sums[i]/5 <<endl;
     }
 
     return 0;
